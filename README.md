@@ -1,113 +1,115 @@
-# HRMS with React Frontend
+# 🚀 HRMS – Human Resource Management System  
+**Full Stack Application | Django REST + React**
 
-This is a complete Human Resource Management System (HRMS) with Django backend and React frontend.
+A production-style Human Resource Management System designed to automate and centralize employee operations such as attendance tracking, leave handling, payroll generation, and role-based administration.
 
-## Features
+This project demonstrates real-world architecture using a Django REST backend and a React frontend with a clean separation of concerns and role-based dashboards.
 
-### Role-Based Access:
-- **Admin**: Manage employees, departments, leaves, payroll
-- **HR**: Manage employees, approve profiles, manage leaves and payroll
-- **Manager**: View team attendance, manage team leaves
-- **Employee**: Mark attendance, apply for leaves, view profile
+---
 
-### Modules:
-1. **Employee Management**: Create, edit, delete employees, manage departments
-2. **Attendance**: Check-in/Check-out system with monthly reports
-3. **Leave Management**: Apply leaves, approve/reject leaves
-4. **Payroll**: Generate payroll with automatic calculations
-5. **Profile Management**: Employee profiles with HR approval workflow
+## 📸 Screenshots
 
-## Installation & Setup
 
-### Backend (Django)
 
-1. Navigate to project directory:
-```bash
-cd c:\Users\DELL\hrms34
-```
+/screenshots
+├── login.png
+├── admin-dashboard.png
+├── hr-dashboard.png
+├── employee-dashboard.png
+├── attendance.png
+├── leave-management.png
+├── payroll.png
 
-2. Activate virtual environment:
-```bash
-.\env\Scripts\activate
-```
 
-3. Install dependencies (if not already installed):
-```bash
-pip install django-cors-headers
-```
+## 📸 Screenshots
 
-4. Run migrations:
-```bash
-python manage.py makemigrations
-python manage.py migrate
-```
+| Login Page | Admin Dashboard |
+|-----------|----------------|
+| ![Login](https://github.com/user-attachments/assets/60cf17f6-ea4f-40f6-8fba-557530273e18) | ![Admin](https://github.com/user-attachments/assets/52b5df7c-4f22-4b2c-a103-9ac02378a6f6) |
 
-5. Create superuser (if needed):
-```bash
-python manage.py createsuperuser
-```
+| Attendance | Leave Management |
+|-----------|----------------|
+| ![Attendance](<img width="2255" height="967" alt="Screenshot 2026-01-19 195444" src="https://github.com/user-attachments/assets/6f54b98d-01c1-481d-8d41-8f924c044708" />
+) | ![Leave](https://github.com/user-attachments/assets/ff97b290-b15d-4030-9616-86c9a6ca51e6) |
 
-6. Start Django server:
-```bash
-python manage.py runserver
-```
 
-### Frontend (React)
+## 🎯 Why This Project?
 
-1. Open a new terminal and navigate to frontend:
-```bash
-cd c:\Users\DELL\hrms34\frontend
-```
+Most “HRMS projects” are just CRUD demos. This one is not.  
+It focuses on:
 
-2. Start React development server:
-```bash
-npm start
-```
+- Real-world role separation  
+- Workflow-based approvals  
+- Payroll automation  
+- Dashboard-driven UI  
+- REST API + SPA architecture  
 
-The React app will start on `http://localhost:3000`
+It’s built like a company product, not a college assignment.
 
-## Usage
+---
 
-1. Access the application at `http://localhost:3000`
-2. Login with your credentials
-3. You'll be redirected to the appropriate dashboard based on your role
+## 🧩 Core Features
 
-## Default Login
+## 🔐 Role-Based Access Control
 
-After creating a superuser via Django admin, you can:
-- Access Django Admin: `http://localhost:8000/admin`
-- Create users with different roles (ADMIN, HR, MANAGER, EMPLOYEE)
+| Role     | Capabilities |
+|---------|--------------|
+| Admin   | Full system control: users, departments, payroll, reports |
+| HR      | Employee onboarding, profile approval, leave & payroll handling |
+| Manager | Team attendance view, team leave approvals |
+| Employee| Attendance marking, leave requests, profile access |
 
-## API Endpoints
+---
 
-All API endpoints are available at `http://localhost:8000/api/`:
+## 📂 Modules Overview
 
-- `/api/accounts/` - Authentication endpoints
-- `/api/employees/` - Employee management
-- `/api/attendance/` - Attendance tracking
-- `/api/leaves/` - Leave management
-- `/api/payroll/` - Payroll operations
-- `/api/dashboard/` - Dashboard data
+### 👥 Employee Management
+- Create, update, delete employees  
+- Department & role assignment  
+- Profile approval workflow  
 
-## Tech Stack
+### ⏰ Attendance System
+- Daily check-in / check-out  
+- Monthly attendance reports  
+- Manager-level visibility  
 
-### Backend:
-- Django 5.1.6
-- Django REST Framework
-- SQLite Database
-- django-cors-headers
+### 📝 Leave Management
+- Leave application  
+- Approval / rejection workflow  
+- Leave history tracking  
 
-### Frontend:
-- React 19
-- Material-UI (MUI)
-- React Router
-- Axios
+### 💰 Payroll System
+- Automated salary calculation  
+- Payslip generation  
+- Monthly payroll reports  
 
-## Project Structure
+### 📊 Dashboard
+- Role-specific analytics  
+- Clean and minimal UI  
 
-```
+---
+
+## 🛠 Tech Stack
+
+### Backend
+- Django 5.1.6  
+- Django REST Framework  
+- SQLite (can be switched to PostgreSQL)  
+- Session Authentication + CSRF  
+- django-cors-headers  
+
+### Frontend
+- React 19  
+- Material UI (MUI)  
+- React Router  
+
+---
+
+## 🗂 Project Architecture
+
+```text
 hrms34/
-├── backend (Django apps)
+├── backend/
 │   ├── accounts/
 │   ├── employees/
 │   ├── attendance/
@@ -115,16 +117,106 @@ hrms34/
 │   ├── payroll/
 │   ├── dashboard/
 │   └── reports/
-└── frontend/ (React app)
+│
+└── frontend/
     └── src/
         ├── components/
         ├── services/
-        └── context/
+        ├── context/
+        └── pages/
 ```
 
-## Notes
 
-- The application uses session-based authentication with CSRF protection
-- CORS is configured to allow requests from `http://localhost:3000`
-- File uploads (employee photos) are stored in the `media/employee_photos/` directory
-- Both servers must be running for the application to work properly
+---
+
+
+🔐 Authentication Notes
+Session-based authentication
+
+CSRF protected
+
+CORS enabled for React frontend
+
+Role-based authorization at API and UI level
+
+
+---
+📁 Media Handling
+Employee photos are stored in:
+
+media/employee_photos/
+
+
+---
+🧠 What This Project Proves
+This is not a “tutorial clone”. It demonstrates:
+
+Real REST API design
+
+Frontend + backend integration
+
+Role-based architecture
+
+Business workflow implementation
+
+Professional project structuring
+
+---
+
+
+
+
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Backend (Django)
+
+```bash
+cd hrms34
+.\env\Scripts\activate
+pip install -r requirements.txt
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+Backend runs on:
+
+
+
+http://localhost:8000
+
+```
+---
+### 2️⃣ Frontend (React)
+
+```bash
+cd hrms34/frontend
+npm install
+npm start
+Frontend runs on:
+http://localhost:3000
+```
+
+---
+### 🔗 API Structure
+Base URL:
+
+```bash
+http://localhost:8000/api/
+Endpoint	Purpose
+/accounts/	Authentication
+/employees/	Employee Management
+/attendance/	Attendance Tracking
+/leaves/	Leave Handling
+/payroll/	Payroll System
+/dashboard/	Dashboard Data
+
+```
+---
+
+
+
+
+
+
+
