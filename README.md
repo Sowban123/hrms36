@@ -29,8 +29,7 @@ This project demonstrates real-world architecture using a Django REST backend an
 
 | Attendance | Leave Management |
 |-----------|----------------|
-| ![Attendance](<img width="2255" height="967" alt="Screenshot 2026-01-19 195444" src="https://github.com/user-attachments/assets/6f54b98d-01c1-481d-8d41-8f924c044708" />
-) | ![Leave](https://github.com/user-attachments/assets/ff97b290-b15d-4030-9616-86c9a6ca51e6) |
+| ![Attendance](<img width="2255" height="967" alt="Screenshot 2026-01-19 195444" src="https://github.com/user-attachments/assets/6f54b98d-01c1-481d-8d41-8f924c044708" />| ![Leave](https://github.com/user-attachments/assets/ff97b290-b15d-4030-9616-86c9a6ca51e6) |
 
 
 ## 🎯 Why This Project?
