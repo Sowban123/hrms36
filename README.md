@@ -1,4 +1,4 @@
-# 🚀 HRMS – Human Resource Management System  
+#  HRMS – Human Resource Management System  
 **Full Stack Application | Django REST + React**
 
 A production-style Human Resource Management System designed to automate and centralize employee operations such as attendance tracking, leave handling, payroll generation, and role-based administration.
@@ -7,7 +7,7 @@ This project demonstrates real-world architecture using a Django REST backend an
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 
 
@@ -32,7 +32,7 @@ This project demonstrates real-world architecture using a Django REST backend an
 | ![Attendance](<img width="2255" height="967" alt="Screenshot 2026-01-19 195444" src="https://github.com/user-attachments/assets/6f54b98d-01c1-481d-8d41-8f924c044708" />| ![Leave](https://github.com/user-attachments/assets/ff97b290-b15d-4030-9616-86c9a6ca51e6) |
 
 
-## 🎯 Why This Project?
+##  Why This Project?
 
 Most “HRMS projects” are just CRUD demos. This one is not.  
 It focuses on:
@@ -47,9 +47,9 @@ It’s built like a company product, not a college assignment.
 
 ---
 
-## 🧩 Core Features
+##  Core Features
 
-## 🔐 Role-Based Access Control
+##  Role-Based Access Control
 
 | Role     | Capabilities |
 |---------|--------------|
@@ -60,35 +60,35 @@ It’s built like a company product, not a college assignment.
 
 ---
 
-## 📂 Modules Overview
+##  Modules Overview
 
-### 👥 Employee Management
+###  Employee Management
 - Create, update, delete employees  
 - Department & role assignment  
 - Profile approval workflow  
 
-### ⏰ Attendance System
+###  Attendance System
 - Daily check-in / check-out  
 - Monthly attendance reports  
 - Manager-level visibility  
 
-### 📝 Leave Management
+###  Leave Management
 - Leave application  
 - Approval / rejection workflow  
 - Leave history tracking  
 
-### 💰 Payroll System
+###  Payroll System
 - Automated salary calculation  
 - Payslip generation  
 - Monthly payroll reports  
 
-### 📊 Dashboard
+###  Dashboard
 - Role-specific analytics  
 - Clean and minimal UI  
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Backend
 - Django 5.1.6  
@@ -104,7 +104,7 @@ It’s built like a company product, not a college assignment.
 
 ---
 
-## 🗂 Project Architecture
+##  Project Architecture
 
 ```text
 hrms34/
@@ -129,7 +129,7 @@ hrms34/
 ---
 
 
-🔐 Authentication Notes
+ Authentication Notes
 Session-based authentication
 
 CSRF protected
@@ -140,14 +140,14 @@ Role-based authorization at API and UI level
 
 
 ---
-📁 Media Handling
+ Media Handling
 Employee photos are stored in:
 
 media/employee_photos/
 
 
 ---
-🧠 What This Project Proves
+ What This Project Proves
 This is not a “tutorial clone”. It demonstrates:
 
 Real REST API design
@@ -168,7 +168,7 @@ Professional project structuring
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Backend (Django)
+### 1️ Backend (Django)
 
 ```bash
 cd hrms34
@@ -186,7 +186,7 @@ http://localhost:8000
 
 ```
 ---
-### 2️⃣ Frontend (React)
+### 2️ Frontend (React)
 
 ```bash
 cd hrms34/frontend
@@ -197,7 +197,7 @@ http://localhost:3000
 ```
 
 ---
-### 🔗 API Structure
+### API Structure
 Base URL:
 
 ```bash
