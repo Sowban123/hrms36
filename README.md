@@ -11,26 +11,45 @@ This project demonstrates real-world architecture using a Django REST backend an
 
 
 
-/screenshots
-├── login.png
-├── admin-dashboard.png
-├── hr-dashboard.png
-├── employee-dashboard.png
-├── attendance.png
-├── leave-management.png
-├── payroll.png
+
+### Login Page
+
+<p align="center">
+  <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/df26b4b2-ca34-48bc-8cd0-5158221771c9" />
+
+</p>
+
+###  Admin Dashboard
+
+<p align="center">
+  <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/11f20c80-0717-4676-8e4e-3bc85b8141ff" />
+
+</p>
+
+### HR Dashboard
+
+<p align="center">
+ <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5e1d04a8-0ec6-48a3-92e5-8a27be2ab61a" />
+
+</p>
+
+###  Manager Dashboard
+
+<p align="center">
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/31f26e71-b65f-4085-b581-a9b57d564384" />
+
+</p>
+
+###  Employee Dashboard
+
+<p align="center">
+ <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/1991dc58-33b0-478a-a360-390892d3ef49" />
+
+</p>
 
 
-## 📸 Screenshots
 
-| Login Page | Admin Dashboard |
-|-----------|----------------|
-| ![Login](https://github.com/user-attachments/assets/60cf17f6-ea4f-40f6-8fba-557530273e18) | ![Admin](https://github.com/user-attachments/assets/52b5df7c-4f22-4b2c-a103-9ac02378a6f6) |
-
-| Attendance | Leave Management |
-|-----------|----------------|
-| ![Attendance](<img width="2255" height="967" alt="Screenshot 2026-01-19 195444" src="https://github.com/user-attachments/assets/6f54b98d-01c1-481d-8d41-8f924c044708" />| ![Leave](https://github.com/user-attachments/assets/ff97b290-b15d-4030-9616-86c9a6ca51e6) |
-
+</p>
 
 ##  Why This Project?
 
